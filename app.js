@@ -1,12 +1,12 @@
 console.log("E-Commerce application started");
 
-let cartItems = 0;
+let totalCartItems = 0;
 
 function addToCart() {
 
-    cartItems = cartItems + 1;
+    totalCartItems = totalCartItems + 1;
 
     document.getElementById("cart").innerText =
-    "Items in cart: " + cartItems;
+    "Items in cart: " + totalCartItems;
 
 }
